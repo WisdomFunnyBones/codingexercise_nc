@@ -23,7 +23,7 @@ public class MathsController {
      */
     @GetMapping("/math/subtract")
     public BasicMathResult subtractInteger1FromInteger2(@RequestParam int parameter1,
-                                          @RequestParam int parameter2){
+                                                        @RequestParam int parameter2){
         return new BasicMathResult(parameter1, parameter2, MathOperation.SUBTRACTION, Math.subtractExact(parameter1,parameter2));
     }
 }
