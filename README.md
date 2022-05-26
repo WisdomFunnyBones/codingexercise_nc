@@ -7,8 +7,8 @@ and the result.
 
 
 ## Exercise
-1. There are two unit tests and two narrow integration tests.
+1. [DONE]There are two unit tests and two narrow integration tests.
    One of each passes and one of each fails. Update the project to ensure the endpoint properly adds two integers.
-2. Create a new endpoint `/math/subtract` that expects two integer parameters and subtracts the second from the first.
-3. Create unit and narrow integration tests to verify endpoint.
-4. Update both endpoints to handle integer overflow by returning an error with a message.
+2. [DONE]Create a new endpoint `/math/subtract` that expects two integer parameters and subtracts the second from the first.
+3. [DONE]Create unit and narrow integration tests to verify endpoint.
+4. [DONE]Update both endpoints to handle integer overflow by returning an error with a message.
