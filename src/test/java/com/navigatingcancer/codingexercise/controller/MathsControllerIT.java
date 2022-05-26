@@ -95,7 +95,7 @@ public class MathsControllerIT {
     }
 
     @Test
-    void givenTenAndEight_WithAddition_shouldReturnTwo(){
+    void givenTenAndEight_WithSubtraction_shouldReturnTwo(){
         int param1 = 10;
         int param2 = 8;
         String url = String.format("/math/subtract?parameter1=%d&parameter2=%d", param1, param2);
